@@ -1,0 +1,29 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\contentsline {chapter}{Declaration of Authorship}{iii}{section*.1}
+\contentsline {chapter}{Abstract}{vii}{section*.2}
+\contentsline {chapter}{Acknowledgements}{ix}{section*.3}
+\contentsline {chapter}{\numberline {1}Vision and Convolutional Neural Network}{1}{chapter.8}
+\contentsline {section}{\numberline {1.1}Statistical Learning Based Vision}{1}{section.9}
+\contentsline {subsection}{\numberline {1.1.1}{Study Scopes}}{1}{subsection.10}
+\contentsline {subsection}{\numberline {1.1.2}{Deep Neural Networks}}{2}{subsection.11}
+\contentsline {subsection}{\numberline {1.1.3}Conv Net Based Recognition and Detection}{2}{subsection.12}
+\contentsline {subsection}{\numberline {1.1.4}Future Work on Deep Model Based CV}{2}{subsection.16}
+\contentsline {subsection}{\numberline {1.1.5}Light From Neuroscience and Cognitive Psychology}{3}{subsection.17}
+\contentsline {section}{\numberline {1.2} Convolutional Neural Network}{4}{section.18}
+\contentsline {subsection}{\numberline {1.2.1}Convolutional and Deconvolutional Layer}{4}{subsection.19}
+\contentsline {subsection}{\numberline {1.2.2}Pooling Layer}{4}{subsection.20}
+\contentsline {section}{\numberline {1.3}Residual Neural Network}{4}{section.21}
+\contentsline {section}{\numberline {1.4}Range Loss for Deep Face Recognition}{4}{section.22}
+\contentsline {chapter}{\numberline {2}Generative Adversarial Network}{5}{chapter.23}
+\contentsline {section}{\numberline {2.1}Unsupervised Learning in Deep Learning}{5}{section.24}
+\contentsline {section}{\numberline {2.2}Generative Adversarial Network}{5}{section.25}
+\contentsline {subsection}{\numberline {2.2.1}Wasserstein GAN}{5}{subsection.26}
+\contentsline {subsection}{\numberline {2.2.2}Conditional GAN}{5}{subsection.27}
+\contentsline {subsection}{\numberline {2.2.3}Deep Convolutional GAN}{5}{subsection.28}
+\contentsline {section}{\numberline {2.3}DC-GAN for Image Generation and Face Super Resolution}{5}{section.29}
+\contentsline {chapter}{\numberline {3}Range Loss Based Generative Adversarial Network}{7}{chapter.30}
+\contentsline {section}{\numberline {3.1}Range Loss and Bound Equilibrium}{7}{section.31}
+\contentsline {section}{\numberline {3.2}RL-GAN for Face Generation}{7}{section.32}
+\contentsline {chapter}{Bibliography}{9}{appendix*.33}

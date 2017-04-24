@@ -1,0 +1,352 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.7 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\sortlist[entry]{nty/global/}
+  \entry{ballard1982computer}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BDH}{%
+         family={Ballard},
+         family_i={B\bibinitperiod},
+         given={Dana\bibnamedelima H},
+         given_i={D\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=BCM}{%
+         family={Brown},
+         family_i={B\bibinitperiod},
+         given={Christopher\bibnamedelima M},
+         given_i={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BDHBCM1}
+    \strng{fullhash}{BDHBCM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{Computer vision, 1982}
+    \field{journaltitle}{Prenice-Hall, Englewood Cliffs, NJ}
+    \field{year}{1982}
+  \endentry
+
+  \entry{dawson1998understanding}{book}{}
+    \name{author}{1}{}{%
+      {{hash=DMR}{%
+         family={Dawson},
+         family_i={D\bibinitperiod},
+         given={Michael\bibnamedelima RW},
+         given_i={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Blackwell Oxford}%
+    }
+    \strng{namehash}{DMR1}
+    \strng{fullhash}{DMR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{title}{Understanding cognitive science}
+    \field{year}{1998}
+  \endentry
+
+  \entry{huang1996computer}{article}{}
+    \name{author}{1}{}{%
+      {{hash=HT}{%
+         family={Huang},
+         family_i={H\bibinitperiod},
+         given={TS},
+         given_i={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HT1}
+    \strng{fullhash}{HT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{pages}{21\bibrangedash 26}
+    \field{title}{Computer Vision: Evolution and Promise}
+    \field{journaltitle}{CERN EUROPEAN ORGANIZATION FOR NUCLEAR
+  RESEARCH-REPORTS-CERN}
+    \field{year}{1996}
+  \endentry
+
+  \entry{lecun2015deep}{article}{}
+    \name{author}{3}{}{%
+      {{hash=LY}{%
+         family={LeCun},
+         family_i={L\bibinitperiod},
+         given={Yann},
+         given_i={Y\bibinitperiod},
+      }}%
+      {{hash=BY}{%
+         family={Bengio},
+         family_i={B\bibinitperiod},
+         given={Yoshua},
+         given_i={Y\bibinitperiod},
+      }}%
+      {{hash=HG}{%
+         family={Hinton},
+         family_i={H\bibinitperiod},
+         given={Geoffrey},
+         given_i={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nature Research}%
+    }
+    \strng{namehash}{LYBYHG1}
+    \strng{fullhash}{LYBYHG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{number}{7553}
+    \field{pages}{436\bibrangedash 444}
+    \field{title}{Deep learning}
+    \field{volume}{521}
+    \field{journaltitle}{Nature}
+    \field{year}{2015}
+  \endentry
+
+  \entry{marr1976understanding}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MD}{%
+         family={Marr},
+         family_i={M\bibinitperiod},
+         given={David},
+         given_i={D\bibinitperiod},
+      }}%
+      {{hash=PT}{%
+         family={Poggio},
+         family_i={P\bibinitperiod},
+         given={Tomaso},
+         given_i={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MDPT1}
+    \strng{fullhash}{MDPT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{From understanding computation to understanding neural
+  circuitry}
+    \field{year}{1976}
+  \endentry
+
+  \entry{morgan2007development}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MJ}{%
+         family={Morgan},
+         family_i={M\bibinitperiod},
+         given={Josh},
+         given_i={J\bibinitperiod},
+      }}%
+      {{hash=WR}{%
+         family={Wong},
+         family_i={W\bibinitperiod},
+         given={Rachel},
+         given_i={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {University of Utah Health Sciences Center}%
+    }
+    \strng{namehash}{MJWR1}
+    \strng{fullhash}{MJWR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{Development of cell types and synaptic connections in the
+  retina}
+    \field{year}{2007}
+  \endentry
+
+  \entry{tabernik2016towards}{article}{}
+    \name{author}{4}{}{%
+      {{hash=TD}{%
+         family={Tabernik},
+         family_i={T\bibinitperiod},
+         given={Domen},
+         given_i={D\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Kristan},
+         family_i={K\bibinitperiod},
+         given={Matej},
+         given_i={M\bibinitperiod},
+      }}%
+      {{hash=WJL}{%
+         family={Wyatt},
+         family_i={W\bibinitperiod},
+         given={Jeremy\bibnamedelima L},
+         given_i={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=LA}{%
+         family={Leonardis},
+         family_i={L\bibinitperiod},
+         given={Ale{\v{s}}},
+         given_i={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TD+1}
+    \strng{fullhash}{TDKMWJLLA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{title}{Towards Deep Compositional Networks}
+    \field{journaltitle}{arXiv preprint arXiv:1609.03795}
+    \field{year}{2016}
+  \endentry
+
+  \entry{wang2017multi}{article}{}
+    \name{author}{6}{}{%
+      {{hash=WJ}{%
+         family={Wang},
+         family_i={W\bibinitperiod},
+         given={Juan},
+         given_i={J\bibinitperiod},
+      }}%
+      {{hash=FZ}{%
+         family={Fang},
+         family_i={F\bibinitperiod},
+         given={Zhiyuan},
+         given_i={Z\bibinitperiod},
+      }}%
+      {{hash=LN}{%
+         family={Lang},
+         family_i={L\bibinitperiod},
+         given={Ning},
+         given_i={N\bibinitperiod},
+      }}%
+      {{hash=YH}{%
+         family={Yuan},
+         family_i={Y\bibinitperiod},
+         given={Huishu},
+         given_i={H\bibinitperiod},
+      }}%
+      {{hash=SMY}{%
+         family={Su},
+         family_i={S\bibinitperiod},
+         given={Min-Ying},
+         given_i={M\bibinitperiod-Y\bibinitperiod},
+      }}%
+      {{hash=BP}{%
+         family={Baldi},
+         family_i={B\bibinitperiod},
+         given={Pierre},
+         given_i={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{WJ+1}
+    \strng{fullhash}{WJFZLNYHSMYBP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{title}{A Multi-Resolution Approach for Spinal Metastasis Detection
+  using Deep Siamese Neural Networks}
+    \field{journaltitle}{Computers in Biology and Medicine}
+    \field{year}{2017}
+  \endentry
+
+  \entry{yamins2016using}{article}{}
+    \name{author}{2}{}{%
+      {{hash=YDL}{%
+         family={Yamins},
+         family_i={Y\bibinitperiod},
+         given={Daniel\bibnamedelima LK},
+         given_i={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=DJJ}{%
+         family={DiCarlo},
+         family_i={D\bibinitperiod},
+         given={James\bibnamedelima J},
+         given_i={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nature Publishing Group}%
+    }
+    \strng{namehash}{YDLDJJ1}
+    \strng{fullhash}{YDLDJJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{Y}
+    \field{sortinithash}{Y}
+    \field{number}{3}
+    \field{pages}{356\bibrangedash 365}
+    \field{title}{Using goal-driven deep learning models to understand sensory
+  cortex}
+    \field{volume}{19}
+    \field{journaltitle}{Nature neuroscience}
+    \field{year}{2016}
+  \endentry
+
+  \entry{zhang2016range}{article}{}
+    \name{author}{5}{}{%
+      {{hash=ZX}{%
+         family={Zhang},
+         family_i={Z\bibinitperiod},
+         given={Xiao},
+         given_i={X\bibinitperiod},
+      }}%
+      {{hash=FZ}{%
+         family={Fang},
+         family_i={F\bibinitperiod},
+         given={Zhiyuan},
+         given_i={Z\bibinitperiod},
+      }}%
+      {{hash=WY}{%
+         family={Wen},
+         family_i={W\bibinitperiod},
+         given={Yandong},
+         given_i={Y\bibinitperiod},
+      }}%
+      {{hash=LZ}{%
+         family={Li},
+         family_i={L\bibinitperiod},
+         given={Zhifeng},
+         given_i={Z\bibinitperiod},
+      }}%
+      {{hash=QY}{%
+         family={Qiao},
+         family_i={Q\bibinitperiod},
+         given={Yu},
+         given_i={Y\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZX+1}
+    \strng{fullhash}{ZXFZWYLZQY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \field{title}{Range Loss for Deep Face Recognition with Long-tail}
+    \field{journaltitle}{arXiv preprint arXiv:1611.08976}
+    \field{year}{2016}
+  \endentry
+\endsortlist
+\endinput

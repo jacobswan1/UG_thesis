@@ -1,0 +1,12 @@
+# Fdb version 3
+["pdflatex"] 1493028481 "Chapter1.tex" "Chapter1.pdf" "Chapter1" 1493028482
+  "/usr/local/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
+  "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
+  "/usr/local/texlive/2016/texmf-dist/web2c/texmf.cnf" 1470266149 31958 926ad82bc47ee89401cf24be7d2cbf7d ""
+  "/usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt" 1473354059 3873676 77a3d4e6a4fcb1518536d9dc12bfb131 ""
+  "/usr/local/texlive/2016/texmf.cnf" 1463979140 577 2938757e76f31531e65cc647e3507693 ""
+  "Chapter1.aux" 1493028163 5229 c30bcdbc492138a8224770ab1a993d59 ""
+  "Chapter1.tex" 1493028480 10456 7b8ac050506f2fd045df0b3e32d1ac40 ""
+  (generated)
+  "Chapter1.pdf"
+  "Chapter1.log"

@@ -1,0 +1,96 @@
+% Chapter 1
+
+\chapter{Vision and Convolutional Neural Network} % Main chapter title
+
+\label{Chapter1} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+
+%----------------------------------------------------------------------------------------
+
+% Define some commands to keep the formatting separated from the content 
+\newcommand{\keyword}[1]{\textbf{#1}}
+\newcommand{\tabhead}[1]{\textbf{#1}}
+\newcommand{\code}[1]{\texttt{#1}}
+\newcommand{\file}[1]{\texttt{\bfseries#1}}
+\newcommand{\option}[1]{\texttt{\itshape#1}}
+
+%----------------------------------------------------------------------------------------
+
+\section{Statistical Learning Based Vision}
+\large My general area of research is the study of {{Statistical Learning}} and {{Computational Vision}} - including the {{Deep Neural Network}} and {{Representation Learning}}. The ultimate goals for my research are to build intelligent systems based on machine vision techonology
+that inspired by the understanding of human representation of visual information. In particular, I focuse on theoretical research and engineering methods in the following topics for at this stage:
+ \begin{itemize}
+   \item {{Visual Object Recognition and Detection}} {(eg, Face Recognition, Lesion Detection on Human Spine Column)}
+   \item {{Deep Neural Networks}} {(Eg, Convolutional Neural Networks, Siamese Networks, Generative Adversarial Networks)}
+   \item {{Representational Theories}}
+ \end{itemize}
+
+To give an intuitive explaination of vertebrate visual system, vision is the process of discovering from images what is present around and where it is. In fact, to better coordinate the sensorium and motorium, representing the visual information (geometric shape, color and texture information) is indispensable and crucial significant. The same truth also applies to the construction of intelligent machine's 
+{(Intellectual Machinery Arm, Image Guiding Device, Autonomous Car)}: without a mature computational vision system, artificial intelligence's interactive modes would be largely limited and shallowed. Based on that intention, I wish my futuer research career focused on the integration of learning and vision system for strong and large sacale AI systems applied in various fields.
+
+\subsection{{Study Scopes}}
+Computational Vision is an interdisciplinary field that deals with how to make computers gain high-level understanding from digital images or videos. From the perspective of engineering, it seeks to automate tasks that the human visual system can do\cite{dawson1998understanding,ballard1982computer,huang1996computer}.
+In $19^{th}$ century, {{David Marr}} put forward that computational vision can be interpreted as an information processing system on three complementary levels of analysis {( Marr's Tri-Level Hypothesis)\cite{marr1976understanding}}: computational level, representational level, and implementational level. Among these directions, I am espacially interested in the representation and implementation foundations of vision. My research emphasis is the intersection of statistical learning, discriminative learning techniques. I will briefly introduce the deep neural networks, one typical learning method and my understanding to its future in the following chapter.
+
+
+\subsection{{Deep Neural Networks}}
+Deep Neural Network can be viewed as a computational model consists of multiple processing layers ({Hierarchical Structre}) to learn representation of data. These methods have dramatically improved the state-of-the-art in visual object recognition, object detection and many other domains. Convolutional neural network (CNN), consists of multiple layers of receptive fields. Each receptive field contains neuron collections that process portions of the input image. To obtain a better representation of the original image, features retrieved from each collection will be tiled, and this repeated for every such layer. {CNN} have achieved great improvement
+on both object detection and recognition tasks in recent years because
+of its extraordinary ability in learning discriminative features
+of objects with different identities.
+
+\subsection{Conv Net Based Recognition and Detection}
+Basically, object detection is a computer vision and image processing that deals with detecting instances of semantic objects of a certain class (such as animals, face, or buildings) in digital images or videos. Considering {CNN}'s good performance in feature extraction, it is applied on detection and recognition as a feature based method: to find feasible matches between object features and image features. Traditional feature based method includes {Interpretation trees, Pose consistency, Scale-invariant feature transform (SIFT)} and so forth. One of the common grounds of the above handcraft feature extraction methods lie in that things can be said analytically or with a gaurantee of performance, but often the conditions are quite limited and do not apply to general situations in the real world {(Song-Chun Zhu, 2014)}. While successful as {CNN}, there also exits drastic disputes among this domain:
+ \begin{enumerate}
+    \item Lack of explainability of the deep features in layers.
+    \item Extreme dependence on mass data samples (Data-driven model).
+    \item Lack of precise spatial relations and semantic information. ({{Hinton}})
+
+ \end{enumerate}
+
+\subsection{Future Work on Deep Model Based CV}
+Deep learning, with its popular meaning, is very much like the method practiced by Chinese herbal clinics over the past three thousand years\cite{lecun2015deep}. Though sounds ironically, it does reflect the dilemma that most deep learning engineers are facing: just like ancient people who own little knowledge of medication that they mix different ingredients with weights and boiled to black and bitter soup as drugs, most deep learning engineers would try different model structure, compositions, weights to acquire most performanced deep models. It's true that herbal clinics can cure illness without understanding either the biologic functions or the mechanism of the drugs. But as for {deep neural network}, when encountering complicated data distribution in the real word or lack of enough training samples, to try different components and ensemble models is not a cost we can afford, nor is this scientism for us.
+
+Secondly, as we have referred above, according to {Marr's Tri-Level Hypothesis}, we can understand and construct a vision system on three levels: computational level, representation level and implementation level. While in {DNN} structure, it is encouraged to build end-to-end networks based on the imitation to mammal's mentally development. All of the three levels are compressed in one end-to-end netwotk, thus posing a negative influence: when the model fails our expectation, it's hard for us to locate the primary cause on a specific stage.
+
+For the future, much scope remains to be improved. In {{\cite{tabernik2016towards} Prof. Leonardis} proposed his {Deep Compositional Networks}, that is a novel analytic model
+of a basic unit in a layered hierarchical model with both
+explicit compositional structure and a well-defined discriminative cost function in {2016}. Such model takes design inspiration from CNNs' lack of explicit structure in features, and explicit shapes and features can be visualized semantically. 
+In {\cite{zhang2016range}}, we investigated the possibility to better utilize the imbalanced data in deep model's training for face-recognition problem. New loss function is designed especially for long-tail distributed training samples. Such work is motivated by the intention to relieve the general deep model's highly dependence on data.
+
+In my view, tentative but pioneering works like this are quite indispensable and highly meaningful for the whole academic circle. More than that, as a burgeoning interdiscipline, inspirations may once again be found from neuroscience and cognitive pshycology.
+
+
+\subsection{Light From Neuroscience and Cognitive Psychology}}
+The understanding of human vision and computer vision, are strongly interconnected ({{Shimon Ullman, 2010}}).
+
+This is a word picked from the book: {Vision, A Computational Investigation into the Human Representation and Processing of Visual Information.} by {David Marr, 1979}, who is been viewed as the father of {Neuroscience} in contemporary era. {Convolutional Neural Network}
+is originally inspired by biological network structures in the human brain visual cortex and the vision system's ventral stream\cite{morgan2007development}. In the computer implementation, the convolution layer's node is linked with several spatial adjacent neurons in the previous layer, just like the optic nerve in human beings. Biologist also states that the eye might provide alone an example of a {convolution neural network} (as made popular for object classification tasks). The topology of the network is in a sense self-structured but a relatively slow process as the {blueprint} is a product of evolution and the practical implementation takes place during the development of the organ.  Inversely, in \cite{yamins2016using}, this paper investigates how the goal-driven CNN approach can be used to delve deeply into understanding the development and organization of sensory cortical processing. In \cite{wang2017multi}, 
+
+Based on a variety of these facts, I realized that the relationship between the {computational vision}'s development and the study of {neuroscience} is to interact and stimulate each other. More groundbreaking and innovative work must be proposed based on the inspiration of them. 
+
+To develop a robustive and highly intelligent vision system is a challenging peak people need to conquer in the pursuit of truely artificial intelligence. Heuristic may come from {Statistical Learning, Neuroscience} and any other interdiscipline subjects. I fully understand this is an
+outward journey, a difficult but enjoyable exploring process into  unknown territory.
+ But the ultimate measure of a scientist is never where he stands in moments of comfort and convenience, but where he stands at times of challenge and unknown. 
+
+%----------------------------------------------------------------------------------------
+
+\section{ Convolutional Neural Network}
+
+
+
+\subsection{Convolutional and Deconvolutional Layer}
+
+
+
+\subsection{Pooling Layer}
+
+\section{Residual Neural Network}
+
+
+\section{Range Loss for Deep Face Recognition}
+
+
+
+
+
+
